@@ -1,4 +1,4 @@
-# smart-city-reporting2
+# smart-city-reporting
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
@@ -76,3 +76,14 @@ Create your first JPA entity
 Easily start your REST Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+
+curl -O -J -L 'https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.2.0-Final/mandrel-java25-linux-amd64-25.0.2.0-Final.tar.gz'
+tar -xf mandrel-java25-linux-amd64-25.0.2.0-Final.tar.gz
+export JAVA_HOME="$( pwd )/mandrel-java25-25.0.2.0-Final"
+export GRAALVM_HOME="${JAVA_HOME}"
+export PATH="${JAVA_HOME}/bin:${PATH}"
+curl -O -J "https://code.quarkus.io/d?e=rest&cn=code.quarkus.io"
+unzip code-with-quarkus.zip
+cd code-with-quarkus/
+./mvnw package -Pnative
+./target/code-with-quarkus-1.0.0-SNAPSHOT-runner
