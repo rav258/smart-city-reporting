@@ -14,14 +14,8 @@ const AuthForm = ({ title, onSubmit }: Props) => {
     e.preventDefault()
     setError("")
 
-    // basic validation
     if (!username || !password) {
       setError("All fields are required")
-      return
-    }
-
-    if (password.length < 6) {
-      setError("Password must be at least 6 characters")
       return
     }
 
