@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/smart-city-reporting.iml" filepath="$PROJECT_DIR$/smart-city-reporting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/smart-city-reporting.iml" filepath="$PROJECT_DIR$/.idea/smart-city-reporting.iml" />
     </modules>
   </component>
 </project>
