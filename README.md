@@ -388,7 +388,7 @@ Make sure the following tools are installed:
 From the project root directory:
 
 ```bash
-docker-compose up --build
+docker-compose up
 ```
 
 This should start:
@@ -397,7 +397,7 @@ This should start:
 - frontend application
 
 ### Example ports
-- frontend: `http://localhost:5173`
+- frontend: `http://localhost:3000`
 - backend: `http://localhost:8080`
 - MySQL: `localhost:3306`
 
@@ -456,7 +456,7 @@ npm run dev
 The frontend should be available at:
 
 ```text
-http://localhost:5173
+http://localhost:3000
 ```
 
 ---
@@ -495,7 +495,7 @@ frontend/.env
 Example:
 
 ```env
-VITE_API_BASE_URL=http://localhost:8080
+VITE_API_BASE_URL=http://localhost:3000
 ```
 
 ---
