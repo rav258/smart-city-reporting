@@ -1,1 +1,5 @@
-com\smartcity\reporting\common\api\HealthResource.class
+com/smartcity/reporting/user/entity/Role.class
+com/smartcity/reporting/user/repository/RoleRepository.class
+com/smartcity/reporting/user/entity/User.class
+com/smartcity/reporting/user/repository/UserRepository.class
+com/smartcity/reporting/user/entity/RoleName.class
