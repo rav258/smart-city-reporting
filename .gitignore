@@ -8,6 +8,8 @@
 /dataSources.local.xml
 .idea
 /frontend/node_modules/
-/backend/target/
+
+/backend/target
+
 /backend/src/main/resources/privateKey.pem
 /backend/src/main/resources/publicKey.pem

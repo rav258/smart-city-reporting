@@ -1,6 +1,7 @@
-package com.smartcity.reporting.service;
+package com.smartcity.reporting.security.resource;
 
 import com.smartcity.reporting.security.dto.CurrentUserResponse;
+import com.smartcity.reporting.security.service.CurrentUserService;
 import jakarta.annotation.security.RolesAllowed;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
