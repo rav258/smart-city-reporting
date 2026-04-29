@@ -73,7 +73,12 @@ public class AuthService {
         String token = Jwt.issuer("smart-city-reporting")
                 .upn(user.getEmail())
                 .subject(String.valueOf(user.getId()))
-                .groups(roles)
+                .groups(
+                        user.getRoles()
+                                .stream()
+                                .map(Role::getName)
+                                .collect(Collectors.toSet())
+                )
                 .expiresIn(Duration.ofHours(12))
                 .sign();
 
